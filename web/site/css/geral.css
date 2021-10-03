@@ -1,0 +1,1529 @@
+
+@charset "utf-8";
+/* abbey road */	
+@font-face {
+        font-family: "Trebuchet MS";
+        src: url("fontes/trebucbi.ttf"); /* para IE */
+        src: url("fontes/trebucbd.ttf"); /* para IE */
+        src: url("fontes/trebuc.ttf"); /* para IE */
+        src: url("fontes/trebucit.ttf"); /* para IE */
+        src: url("fontes/trebuc.afm");
+        src: url("fontes/trebuc.dfont");
+        src: url("fontes/trebuc.otf");
+        src: url("fontes/trebuc.pfb");
+    }
+
+
+
+* {margin:0;padding:0; font-family: arial;} 
+
+
+html {height: auto; width:100%; background: url(../imagens/imagens_index/fundo_total.png);}
+
+center{
+    background: url(../imagens/imagens_index/fundo_inove.png) no-repeat;
+    
+
+    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:Tahoma, Geneva, sans-serif;
+
+}
+
+#plano_rodape{
+    width:100%;
+    height:auto;
+     }
+    #plano_de_fundo{
+    
+    background: url(../imagens/imagens_index/fundo_topo.png) no-repeat ;
+    height:1000px;
+    width: 1399px;
+    margin:0 auto;
+    margin-left:auto;
+    margin-right:auto;
+     }
+#tudo {
+   height:100%;
+    width:1000px;
+}
+
+
+#principal {
+        overflow:auto;
+	padding-bottom: 80px;} 
+
+
+
+
+body:before {
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;
+}
+
+
+*{ outline:none; }
+
+
+div.linha{
+    width:100%;
+    height:auto;
+ 
+}
+
+p{
+    font-size:14px;
+    font-family:arial;
+    color:#000000;}
+
+textarea{
+	overflow:hidden;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;}
+
+
+a{
+    color:#000000;
+    text-decoration: underline;
+}
+
+ul,li{
+	list-style:none;
+	margin:0;
+	padding:0;}
+
+a{text-decoration:none; }
+
+.conteudo{
+	width:1000px;
+	margin:0 auto;}
+
+.borda{ border-bottom:1px dashed #ccc; }
+
+.clear{ clear:both; }
+
+.titulos{
+	font-size:12px; font-family:arial; font-weight:bold; padding-bottom:5px; margin-right:10px;  height:20px; 
+}
+
+#logo{
+	float:left;
+        margin-left:60px;
+        margin-top:28px;
+        
+}
+#animacao_topo{
+    float:left;
+    margin-left:165px;
+    width:auto;
+    margin-top:10px;
+}
+#topo{
+   width:100%;
+   height:auto;
+    
+}
+#menus_topo{
+    width: 630px;
+    height:65px;
+    float:right;
+    cursor: pointer;
+    background: url(../imagens/imagens_index/munus_topo.png) no-repeat;}
+
+#linha_do_topo{
+    width:100px;
+    height: 7px;
+    padding-right: 100%;
+    margin-top:201px;
+    margin-left:1194px;
+    position:absolute;
+    background: url(../imagens/imagens_index/barra_topo.png)}
+
+.menus_home{
+    float:left;
+    margin-top:15px;
+    cursor: pointer;
+    margin-left: 40px;
+    font-size:13.63px;
+    font-family: Trebuchet MS, arial;
+    color:#8C8C8C;
+}
+.menus{
+    float:left;
+    margin-top:15px;
+    margin-left: 45px;
+    font-size:13.63px;
+    cursor: pointer;
+    font-family: Trebuchet MS, arial;
+    color:#8C8C8C;
+}
+.menu_linha{
+    width: 105px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #8C8C8C;
+    
+}
+.menus_left{
+    float:left;
+    margin-top:15px;
+    margin-left:20px;
+    font-size:13.63px;
+    cursor: pointer;
+    font-family: Trebuchet MS, arial;
+    color:#8C8C8C;
+}
+.menus_left:hover{
+    color:#FF0000; 
+}
+.menus_form{
+    float:left;
+    margin-top:15px;
+    font-size:13.63px;
+    cursor: pointer;
+    font-family: Trebuchet MS, arial;
+    color:#8C8C8C;
+}
+.menus_form:hover{
+    color:#FF0000; 
+}
+.menus:hover{
+    color:#FF0000; 
+}
+.menus_home:hover{
+    color:#FF0000; 
+}
+.menus:select{
+    color:#FF0000;
+}
+#data{
+   float:right;
+   margin-top:30px;
+    margin-right:140px;
+    display:block;
+     font-size:13.34px;
+    font-family: Trebuchet MS, arial;
+    line-height:20px;
+}
+
+
+.conteudoInterno{
+	width:760px;
+	float:left;
+	margin-left:20px;}
+
+
+
+#conteudo_esquerdo{
+    height:auto;
+    width: 230px;
+    float:left;
+    margin-top:30px;
+    font-size: 10.22px;
+    color:#FF0000;
+    font-family: Trebuchet MS, arial;
+}
+#conteudo_esquerdo a{
+    color:#FF0000;
+}
+div.obs{
+    font-size: 16px;
+    color:#FF0000;
+    font-family: Trebuchet MS, arial;
+    float:left;
+    clear:both;
+    width:200px;
+    display: block;
+    padding-left:30px;
+    text-align: left;
+}
+div.obs a{
+    color:#FF0000;
+}
+div.obs:hover{
+        text-decoration: underline;
+}
+.links{
+    font-size: 10.22px;
+    color:#FF0000;
+    font-family: Trebuchet MS, arial;
+    float:left;
+    width:100%;
+    display: block;
+    clear:both;
+    display:block;
+    text-align: left;
+}
+.links a{
+    color:#FF0000;
+}
+div.links:hover{
+        text-decoration: underline;
+}
+.link1 {
+    float:left;
+}
+.link1 a:hover {
+    text-decoration: underline;
+}
+div.calendario{
+    width:205px;
+    float:left;
+    height:259px;
+    background: url(../imagens/imagens_index/calendario.png);
+    border:0;
+}
+div.calendario:hover{
+    background: url(../imagens/imagens_index/calendario_over.png);
+    color:#000000;
+}
+div.menus_leteral{
+     font-family: Trebuchet MS, arial;
+     font-size: 24.71px;
+     color:#FFFFFF;
+    margin-top: 20px;
+     padding-top:50px;
+}
+
+
+div.publicidade{
+    border:0;
+    float:left;
+}
+
+#publicidade{
+   width:160px;
+   height:190px;
+}
+div.sorteio{
+   background: url(../imagens/imagens_index/sorteio.png) no-repeat;
+    border:0;
+    float:left;
+    width:235px;
+    height:450px;
+   
+}
+div.titulo_sorteio{
+    color:#FF0000;
+    font-size:25px;
+    width:145px;
+    text-align:center;
+    margin-top:10px;
+    margin-left:35px;
+    float:left;
+}
+.titulo_sorteio a{
+    color:#FF0000;
+  
+}
+#foto_sorteio{
+    margin-left:-20px;
+}
+.nome_news{
+    
+    font-size:15px;   
+    text-align:left;
+
+}
+.nome_sorteio{
+    color:#000000;
+    font-size:15px;   
+    text-align:left;
+    margin-left:15px;
+}
+.borde_soteio{
+   border-bottom: solid 1px #878787;
+   width:180px;
+}
+#conteudo_principal{
+    margin-right:auto; margin-left: auto; margin:0 auto;
+    height:auto;
+    width: 500px;
+    
+}
+/*             **********************************************               SLIDE                     ****************************************                   */
+
+
+    #wrapper{margin-right:auto; margin-left: auto; width: 481px; height:308px; margin:0 auto; margin-top:-10px;}
+.sliderbutton {float:left; width:60px; height:50px; padding-top:134px}
+.sliderbutton_right {float:right; width:55px; height:50px; padding-top:134px}
+.sliderbutton img {cursor:pointer}
+.sliderbutton img:hover {}
+.numeros{float:left; width:57px; height:17px; display:block;}
+#slider {float:left; position:relative; overflow:auto; height:300px; width:361px; }
+#slider ul {position:absolute; list-style:none; top:0; left:0}
+#slider li {float:left; height:300px; width:361px; padding-right:10px}
+
+.pagination {border:0; float:left; }
+.pagination li {float:left; cursor:pointer; padding:0px 0px; }
+.pagination li:hover {border:0; }
+li.current {}
+
+li#content {height:300px; width:361px; padding:15px 28px 15px 18px}
+#content h1 {font:22px Georgia,Verdana; margin-bottom:15px; color:#036}
+
+
+
+/*           ********************************************************************                 SLIDE         **********************************************************************************************                               */
+
+div.titulo{
+    font-family:Trebuchet MS, arial;
+    font-size:15.6px;
+    color:#FF0000;
+    text-align:left;
+    margin-top:13px;
+    width:204px;
+    height: 20px;
+    border-bottom: solid 1px #A8A8A8;
+    float:left;
+}
+
+#slides{
+    width:461px;
+  
+    backgroung-color:A8A8A8;
+    height:195px;
+    margin-top:10px;
+   
+    float:left;
+   
+}
+#conteudo_destaques{
+    height:308px;
+    width: 481px;
+    display: block;
+   margin-right: 5px;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    
+}
+
+#paginador{
+    float:left;
+
+}
+
+
+#paginador a{
+	width:17px;
+	height:17px;
+	display:block;
+	float:left;
+	background: url(../imagens/botoes_slide/botaoof.png) no-repeat center;
+	text-indent:-999999px;
+	display:inline-block;
+         margin-top: 5px;
+           
+}
+
+#paginador a.activeSlide{
+	background: url(../imagens/botoes_slide/botaoon.png) no-repeat center;
+}
+
+#ultimos_eventos{
+    margin-top:40px;
+    margin-left: 30px;
+    float: left;
+    width:500px;
+    height:auto;
+}
+#fotos_ultimos_eventos{
+    width:400px;
+    height:200px;
+    margin-left: 30px;
+   margin-top:30px;
+    float:left;
+    background: url(../imagens/imagens_index/eventos.png) no-repeat center;
+}
+div.borda_foto{
+    background-color:#FFFFFF ;
+}
+.borda_foto :hover{
+    padding:5px;
+    background-color:#FF0000 ;
+}
+#eventos_foto_1{
+    margin-top:30px;
+
+   -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+
+   
+    margin-left:5px;
+    margin-top:-5px;
+    float:left;
+}
+
+#eventos_foto_2{
+ clear:both;
+
+ z-index: 5;
+
+  margin-top:10px;
+  margin-left:150px;
+  position: absolute;
+}
+#eventos_foto_3{
+    -webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    clear:both;
+    
+    float:right;
+    
+}
+
+#fotos{
+    width:440px;
+    height: 200px;
+    padding-top: 60px;
+}
+
+#conteudo_direito{
+    width:230px;
+    height: auto;
+    float:right;
+   
+}
+
+
+#conteudo_depoismento{
+    font-family: Trebuchet MS, arial;
+    font-size: 22.08px;
+    color:#8C8C8C;
+    height:auto;
+    width:100%;
+    text-align: center;
+}
+.aspas{
+    text-align: left;
+    font-size: 42.34px;
+}
+
+
+div.nome{
+    font-size: 10.22px;
+    font-family: Trebuchet MS, arial;
+    float:left;
+    clear:both;
+    width:149px;
+    display: block;
+    margin-top: 3px;
+    text-align: left;
+}
+span{
+    color:#FF0000;
+    font-size: 10.22px;
+    font-family: Trebuchet MS, arial;
+}
+strong{
+    font-size: 42.34px;
+}
+#baixo{
+    width:100%;
+    height: auto;
+    margin:center;
+}
+#rodape{
+    width:100%;
+    clear:both;
+    height:148px;
+    background: url(../imagens/imagens_index/rodape.png);
+}
+#imagem_rodape{
+    width:1000px;
+    height: 148px;
+    margin:0 auto;
+    margin:center;
+    margin-top:-150px;
+    background: url(../imagens/imagens_index/rodape_inteiro.png) no-repeat;
+}
+div.parceiros{
+ 
+    widht:500px;
+    padding-top: 55px;
+ 
+    float:left;
+    margin-left:20px;
+}
+
+div.imagem_parceiros{
+    width:85px;
+    height:55px;
+    float:left;
+    margin-left:8px;
+}
+div.newslatter{
+    height:100px;
+    padding-top:55px;
+    width:220px;
+    float:right;
+  
+    margin-top:1px;
+    }
+    #final{
+       margin:0 auto;
+       margin-left:auto;
+       margin-right:auto;
+       height:100px; 
+       text-align: left;
+       width:1000px;
+     
+       font-family: 14.48px;
+       font-family: Trebuchet MS, arial;
+       color:#8C8C8C;
+    }
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+/*******************************************************Paginas**************************************************************/
+/*******************************************************Paginas empresa**************************************************************/
+#empresa{
+    width: 700px;
+    height:auto;
+    float:left;
+    margin-top:51px;
+    margin-left:51px;
+    text-align: left;
+}
+#empresa_formandos{
+    width: 600px;
+    height:auto;
+    float:left;
+    margin-top:51px;
+    margin-left:51px;
+    text-align: left;
+}
+#empresa1{
+    width: 700px;
+    height:1px;
+    float:left;
+    margin-top:51px;
+    margin-left:51px;
+    text-align: left;
+}
+div.titulo_empresa{
+    color:#FF0000;
+   
+    font-size:26px;
+    width:100%;
+}
+#conteudo_empresa{
+
+    height:auto;
+    font-family: Trebuchet MS, arial;
+    font-size: 14px;
+
+    
+   
+}
+#empresa_fotos{
+    margin-top:40px;
+    margin-left:22px;
+    font-family: Trebuchet MS, arial;
+    font-size:20px;
+}
+#empresa_fotos_conteudo{
+    margin-left:22px;
+    width: 562px;
+    height: auto;
+    
+    
+}
+div.empresa_album_fotos{
+    margin-top:19px;
+    
+    width:88px;
+    margin-right:12px;
+    float:left;
+  
+    display:block;
+}
+
+/*******************************************************Paginas Serviços**************************************************************/
+#conteudo_servicos{
+    margin-top:15px;
+    width:150px;
+    clear:both;
+    height:auto;
+    margin-left:21px;
+
+}
+.texto_servico_depoimentos{
+    width: 500px;
+    margin-left: 55px;
+    margin-top: 10px;
+    float: left;
+    height: auto;
+    font-family: Trebuchet MS, arial;
+    font-size:14px;
+}
+
+#conteudo_servicos_sub{
+    margin-top:15px;
+    width:auto;
+    clear:both;
+    height:auto;
+    margin-left:21px;
+}
+#serivicos_lateral{
+ 
+}
+#serivicos_lateral_1{
+    height:auto;
+    width:140px;
+    float:left;
+}
+.texto_servicos{
+    width:100%;
+    margin-left: 20px;
+    font-family: Trebuchet MS, arial;
+    font-size:14px;
+}
+
+div.conteudo_foto_servicos{
+    width:auto;
+    height:auto;
+    float:left;
+    z-index: 4;
+
+    
+}
+#conteudo_foto_servicos_decoracao{
+      background: url(../imagens/servicos/decoracao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+      
+}
+#conteudo_foto_servicos_buffet{
+      background: url(../imagens/servicos/buffet.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+}
+#conteudo_foto_servicos_buffet{
+      background: url(../imagens/servicos/buffet.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+}
+#conteudo_foto_servicos_organigacao{
+      background: url(../imagens/servicos/organizacaocerimonial.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+      
+}
+#conteudo_foto_servicos_fotos{
+      background: url(../imagens/servicos/fotoefilmagem.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+      
+}
+#conteudo_foto_servicos_colacao{
+      background: url(../imagens/servicos/colacao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+      
+}
+#conteudo_foto_servicos_banda{
+      background: url(../imagens/servicos/banda.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+}
+#conteudo_foto_servicos_iluminacao{
+      background: url(../imagens/servicos/iluminacao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+      
+}
+#conteudo_foto_servicos_locacao{
+      background: url(../imagens/servicos/locacoes.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      height:120px;
+
+      
+}
+#conteudo_foto_servicos_outros{
+      background: url(../imagens/servicos/outros.png) no-repeat;
+      width: 650px;
+      height:120px;
+
+}
+
+
+#conteudo_foto_servicos_decoracao1{
+      background: url(../imagens/servicos/decoracao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_buffet1{
+      background: url(../imagens/servicos/buffet.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+     position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+}
+#conteudo_foto_servicos_buffet1{
+      background: url(../imagens/servicos/buffet.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_organigacao1{
+      background: url(../imagens/servicos/organizacaocerimonial.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_fotos1{
+      background: url(../imagens/servicos/fotoefilmagem.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+     position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_colacao1{
+      background: url(../imagens/servicos/colacao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_banda1{
+      background: url(../imagens/servicos/banda.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+}
+#conteudo_foto_servicos_iluminacao1{
+      background: url(../imagens/servicos/iluminacao.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+     position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_locacao1{
+      background: url(../imagens/servicos/locacoes.png) no-repeat;
+      width: 650px;
+      min-height: 120px;
+     position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+      
+}
+#conteudo_foto_servicos_outros1{
+      background: url(../imagens/servicos/outros.png) no-repeat;
+      width: 650px;
+      position: absolute;
+      height:120px;
+      @margin-left:-150px; 
+}
+
+
+
+.barra_lateral{
+    width:200px;
+    height:100%;
+padding-top: 40px;
+}
+div.titulo_foto_servico{
+    height:15px;
+    z-index: 1;
+    width: 200px;
+    text-align: left;
+    font-size:12px;
+    float:left;
+    font-family: Trebuchet MS, arial;
+    margin-left: 110px;
+    margin-top:28px;
+    color:#000000;
+   
+   }
+
+   div.titulo_foto_servico a{
+    color:#FFFFFF;
+   }
+   div.titulo_foto_servico a:hover{
+    color:#000000;
+   }
+
+div.foto_servicos{
+    width:300px;
+    height:97px;
+    display: block;
+    clear:both;
+}
+div.texto{
+    font-family: Trebuchet MS, arial;
+    font-size:22px;
+    clear:both;
+    padding-top:10px;
+    margin-left:150px;
+    font-size: 14px;
+}
+div.texto_servico{
+    font-family: Trebuchet MS, arial;
+    font-size:22px;
+    clear:both;
+    padding-top:10px;
+    margin-left:110px;
+    font-size: 14px;
+}
+.conteudo_depoimentos{
+    width: 100%;
+    height: auto;
+    
+}
+
+/*******************************************************Paginas Sub-Servicos***********************************************************************/
+   div.titulo_foto_sub_servico{
+    width:300px;
+    height:15px;
+    z-index: 1;
+    font-size:10px;
+    text-indent: 50px;
+
+    margin-top:30px;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-radius: 5px; /* Para Firefox */
+    -webkit-border-radius: 5px; /*Para Safari e Chrome */
+    border-radius: 5px; /* Para Opera 10.5+*/
+   }
+.servicos_principal{
+width: 500px;
+min-height: 1000px;
+height: auto;
+float: left;
+    
+}
+div.texto_sub_categoria{
+    width:500px;
+    height:auto;
+    padding-left: 20px;
+    
+    padding-top:60px;
+}
+ #orcamento{
+   float:left;
+ width: 180px;
+    height:200px;
+
+    margin-top:190px;
+}
+div.texto_orcamento{
+    font-family: Trebuchet MS, arial;
+    font-size:10px;
+    margin-top:-25px;
+  
+    position:absolute;
+     margin-left:20px;
+    z-index:4;
+    float:right;
+}
+div.texto_orcamento a{
+    color:#FF0000;
+}
+div.texto_orcamento a:hover{
+    text-decoration: underline;
+}
+div.titulo_sub_categoria{
+    font-family: Trebuchet MS, arial;
+    font-size:15px;
+    color:#FF0000;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+div.fotos_sub_servicos{
+    margin-right:3px;
+    margin-top:3px;
+    float:left;
+}
+div.borda_sub_servicos{
+    background-color:#999890;
+    padding: 2px;
+    width:67px; 
+    height:52px;
+    
+}
+/*******************************************************Paginas************************************************************************************/
+/*******************************************************Contato************************************************************************************/
+.titulo_contato{
+    font-family: Trebuchet MS, arial;
+    font-size:20px;
+    margin-top:10px;
+    margin-left:39px;
+    float: left;
+
+}
+.select_contato{
+    float:left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/*******************************************************Paginas************************************************************************************/
+/*******************************************************Paginas Eventos************************************************************************************/
+.menu_eventos{
+    @border-radius:  10px; 
+    border-radius:10px; 
+    margin-top:33px;
+    background: url(../imagens/imagens_index/eventos_barra.png) ;
+    width: 570px;
+    height:31px;
+}
+
+.texto_menu_eventos{
+    color:#FFFFFF;
+    padding-top:7px;
+    margin-left:15px;
+    font-family: Trebuchet MS, arial;
+    font-size: 14px;
+    width: 400px;
+
+    overflow: hidden;
+}
+.texto_menu_eventos a{
+    color:#FFFFFF;
+  
+   
+}
+.conteudo_menu_eventos{
+    width: 150px;
+    float: right;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 5px;
+    margin-top: -20px;
+    color: #FFFFFF;
+}
+.conteudo_menu_eventos:hover{
+    text-decoration: underline;
+      corsor:pointer;
+}
+
+.videos{
+    margin-left:400px;
+    height:50px;
+    position: absolute;
+    margin-right:20px;
+    margin-top: -35px;
+}
+.fotos_videos{
+    margin-left: 10px;
+    margin-top: 9px;
+    float:left;
+    width: 600px;
+    height:auto;
+    margin-bottom:20px;
+
+}
+.fotos_videos_conteudo{
+    margin-right:8px;
+    float:left;
+    width: 78px;
+    height: 59px;
+    margin-top: 6px;
+}
+.fotos_videos_conteudo1{
+    margin-right:8px;
+    float:left;
+    width: 250px;
+    height:200px;
+    margin-top: 6px;
+}
+.fotos_videos_conteudo2{
+    margin-right:8px;
+    float:left;
+    width: 516px;
+    height:296px;
+    margin-top: 6px;
+    clear: both;
+}
+.espaco{
+    margin-left:5px;
+}
+/*******************************************************Paginas Eventos************************************************************************************/
+/*******************************************************Paginas AGENDA************************************************************************************/
+#conteudo_esquerdo_agenda{
+    width: 198px;
+    margin-top:40px;
+    height:auto;
+    float:left;
+      background: url(../imagens/img_fundo.png) no-repeat;
+}
+#moldura_agenda{
+    float:left;
+    width: 173px;
+    z-index: 10;
+    height: 218px;
+}
+.foto_agenda{
+  
+    margin-left:20px;
+    width: 173px;
+    height: 260px;
+}
+.conteudo_agenda{
+    display:block;
+    clear: both;
+    height: 100%;
+    width: 200px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+#conteudo_direita_agenda{
+    width: 410px;
+    height:auto;
+    padding-top:43px;
+    float:left;
+}
+.titulo_agenda{
+    margin-top:7px;
+    width:220px;
+    height:19px;
+    z-index: 1;
+    margin-left:-5px;
+    float:left;
+    text-indent: 10px;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-top-right-radius: 5px; /* Para Firefox */
+    -webkit-border-top-right: 5px; /*Para Safari e Chrome */
+    border-top-right-radius: 5px; /* Para Opera 10.5+*/
+    -moz-border-bottom-right-radius: 5px; /* Para Firefox */
+    -webkit-border-bottom-right: 5px; /*Para Safari e Chrome */
+    border-bottom-right-radius: 5px; /* Para Opera 10.5+*/
+}
+#tudo_conteudo_empresa{
+    width: 100%;
+    height: 100%;
+}
+.agenda{
+    margin-bottom: 8px;
+}
+#conteudo_principal_agenda{
+    display:block;
+    clear:both;
+    padding-top:16px;
+    margin-left:30px;
+}
+/*******************************************************Paginas AGENDA************************************************************************************/
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+.input1[type=text], input1[type=password], textarea, select, input1[type=file], .file{
+    background:#FF0000;
+    border:1px solid #000000;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:#FFFFFF;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    max-height: 50px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+.input1[type=submit].topo, input1[type=button], input1[type=submit]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-radius: 7px; /* Para Firefox */
+    -webkit-border-radius: 7px; /*Para Safari e Chrome */
+    border-radius: 7px; /* Para Opera 10.5+*/
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+	
+    max-height:30px;
+    min-width:70px;
+    max-width:70px;
+    cursor:pointer;
+    border: 0px;
+}
+.input1[type=submit].topo, input[type=button], input[type=submit]:hover{
+    color:#000000;
+    border:0px;
+    
+   }   
+   .formandos{
+       margin-top:7px;
+   }
+   .form_formandos{
+    float: left;   
+    font-family: Trebuchet MS, arial;
+    font-size: 14px;
+   }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+input[type=text], input[type=password], textarea, select, input[type=file], .file{
+    background:#FF0000;
+    border:0px solid #FFFFFF;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:transparent;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    }
+
+.input3[type=text], input3[type=password]{
+    background:#FF0000;
+    border:0px solid #FFFFFF;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:transparent;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+}
+
+
+input[type=submit].topo, input[type=button], input[type=submit]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+    border:none;
+    padding:4px 10px;
+    cursor:pointer;}
+
+input[type=submit].topo, input[type=button], input[type=submit]:hover{
+    color:#000000;
+   }
+        
+
+
+    
+.input4[type=text], input4[type=password], textarea, select, input4[type=file], .file{
+    background:#FF0000;
+    border:0px;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:transparent;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    max-height: 50px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+.input4[type=submit].topo, input4[type=button], input4[type=submit]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#FFFFFF;
+    background-color:transparent;
+    -moz-border-radius: 7px; /* Para Firefox */
+    -webkit-border-radius: 7px; /*Para Safari e Chrome */
+    border-radius: 7px; /* Para Opera 10.5+*/
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+	
+    max-height:30px;
+    min-width:70px;
+    max-width:70px;
+    cursor:pointer;
+    border: transparent;
+}
+.input4[type=submit].topo, input4[type=button], input4[type=submit]:hover{
+    color:#000000;
+    border:0px;
+   }   
+   .formandos4{
+       margin-top:7px;
+   }
+   .form_formandos4{
+    float: left;   
+    font-family: Trebuchet MS, arial;
+    font-size: 14px;
+   }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************************************/
+h1{
+	font-size:22px;
+	margin-top:8px;
+	margin-bottom:30px;
+	font-weight:normal;
+}
+
+h2{
+	font-size:22px;
+
+	margin:-5px 10px 5px 0;
+	padding-top:5px;
+	font-weight:normal;
+}
+
+h3{
+	font-size:18px;
+	margin: 20px 0;
+	font-weight:normal;	
+}
+
+h4{
+	font-size:11px;
+	color:#FF0000;
+        font-family: Trebuchet MS, arial;
+}
+
+span.texto{
+	text-align:justify;
+	font-size:12px;
+}
+
+/***************************************************************************************************************************************/
+.formulario div{
+	float:left;
+	margin-top:18px;
+}
+
+.formulario input[type=text], .formulario textarea, .formulario select, .formulario input[type=file], .file{
+	margin-top:3px;
+	color: #a3a3a3;
+}
+
+.formulario input[type=text]:focus, .formulario textarea:focus, .formulario select:focus, .formulario input[type=file]:focus{
+	color:#FF0000;
+}
+
+.formulario label{
+	margin-bottom:15px;	
+}
+
+#midiamixflash{
+	display:block; float:left; 
+        
+}
+
+input[type=reset]{
+    background:#FF0000;
+    border:1px solid #000000;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:#FFFFFF;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    max-height:20px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+input[type=reset]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-radius: 7px; /* Para Firefox */
+    -webkit-border-radius: 7px; /*Para Safari e Chrome */
+    border-radius: 7px; /* Para Opera 10.5+*/
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+    padding:4px 10px;
+    max-height:30px;
+    min-width:70px;
+    max-width:70px;
+    cursor:pointer;
+    border: 0px;
+}
+input[type=reset]:hover{
+    color:#000000;
+    border:0px;
+   }   
+   
+           
+input2[type=text], input2[type=password], textarea, select, input2[type=file], .file{
+    background:#FF0000;
+    border:0px solid #FFFFFF;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:transparent;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    padding:6px 4px;
+}
+
+
+input2[type=submit].topo, input2[type=button], input2[type=submit]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#000000;
+    border:none;
+    background-color:transparent;
+    padding:4px 10px;
+    cursor:pointer;
+}
+
+
+input2[type=submit].topo, input2[type=button], input2[type=submit]:hover{
+    color:#000000;
+}
+   input2[type=submit].topo, input2[type=button], input2[type=submit]:focus{
+   background-color:transparent;
+}
+input2[type=reset].topo, input2[type=button], input2[type=reset]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#000000;
+    border:none;
+    background-color:transparent;
+    padding:4px 10px;
+    cursor:pointer;
+}
+input2[type=reset].topo, input2[type=button], input2[type=reset]:hover{
+    color:#000000;
+}
+   input2[type=reset].topo, input2[type=button], input2[type=reset]:focus{
+   background-color:transparent;
+}
+input2[type="button"], input2[type="submit"], input2[type="reset"] {
+font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#000000;
+    border:none;
+    background-color:transparent;
+    padding:4px 10px;
+    cursor:pointer;
+}
+
+#tudo_rodape{
+    width: 100%;
+    height:auto;
+}
+
+       li.headlink ul { display: none; }
+       li.headlink:hover ul { 
+           display: block; 
+           position: absolute;
+           z-index: 99999; 
+          
+       
+       }
+       
+.nome_pessoa{
+  width: 535px;
+margin-left: 20px;
+float: left;
+height: auto;
+font-family: Trebuchet MS, arial;
+font-size: 14px;
+    float: left;
+    text-align: right;
+    color:#FF0000;
+    margin-top:10px;
+    
+}
+#depoimentos_conteudo{
+    width: 650px;
+    height:auto;
+}
+.imagem_depoimentos{
+    width: 94px;
+    float: left;
+    height: 131px;
+}
+.titulo_depoimentos{
+    width: 201px;
+margin-left: 20px;
+ -moz-border-radius: 7px; /* Para Firefox */
+    -webkit-border-radius: 7px; /*Para Safari e Chrome */
+    border-radius: 7px; /* Para Opera 10.5+*/
+    padding-left:36px;
+    color:#FFFFFF;
+float: left;
+height:20px;
+background-color: #FF0000;
+font-family: Trebuchet MS, arial;
+font-size: 14px;
+    
+}
+.atendimento{
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+.qrcode{
+    width: 71px;
+    height: 71px;
+    float:right;
+}

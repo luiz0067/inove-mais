@@ -1,0 +1,63 @@
+*{
+    font-family: arial;
+}    
+    
+    
+    
+    
+
+input[type=text], input[type=password], textarea, select, input[type=file], .file{
+    background:#FF0000;
+    border:1px solid #000000;
+    -webkit-transition: .3s ease-in-out;  
+    background-color:#FFFFFF;
+    color:#A8A8A8;
+    -moz-transition: .3s ease-in-out;  
+    overflow: hidden;
+    max-height:6px;
+    -moz-border-radius: 10px; /* Para Firefox */
+    -webkit-border-radius: 10px; /*Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+*/
+}
+
+
+input[type=submit].topo, input[type=button], input[type=submit]{
+    font-size:12px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#FFFFFF;
+    background-color:#FF0000;
+    -moz-border-radius: 7px; /* Para Firefox */
+    -webkit-border-radius: 7px; /*Para Safari e Chrome */
+    border-radius: 7px; /* Para Opera 10.5+*/
+    float:left;
+    margin-left:100px;
+    max-height:25px;
+   min-height:25px;
+    min-width:70px;
+    max-width:70px;
+    cursor:pointer;
+}
+
+input[type=submit].topo, input[type=button], input[type=submit]:hover{
+    color:#000000;
+   }
+        
+   .formandos{
+       margin-top:7px;
+       font-family: Trebuchet MS;
+   }
+   .form_formandos{
+    float: left;   
+    
+   }
+   
+    .fonte_vermelha {
+        color:#FF0000;
+      
+    } 
+    #formandos_conteudo{
+      width: 405px;
+      height:auto;
+      clear: both;
+        
+    }
